@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch with Persistent History</title>
+    <link rel="stylesheet" href="style/styles.css">
+</head>
+<body>
+    <div class="stopwatch-container">
+        <div class="stopwatch">
+            <span id="time">00:00:00.00</span>
+        </div>
+        <button id="history-toggle">Stopwatch History</button>
+        <button id="clear-history">Clear History</button>
+        <ul id="history-list" class="hidden"></ul>
+        <p class="instructions">Press the spacebar to start/stop/reset the stopwatch</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
